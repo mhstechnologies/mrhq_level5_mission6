@@ -1,0 +1,26 @@
+.Header_Body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.Header_Home {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Header_Logo {
+  margin-left: 10%;
+  width: 10%;
+  border-radius: 50%;
+}
+
+.Header_Company {
+  margin-left: 2%;
+  color: white;
+  justify-items: center;
+}

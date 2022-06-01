@@ -1,0 +1,31 @@
+.Bottom_Body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.Bottom_Figure_Generic {
+  background-color: white;
+}
+
+.Bottom_Figures {
+  width: 280px;
+  height: 250px;
+}
+
+.Bottom_Figure_Description {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: lavender;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1250px) {
+  .Bottom_Body {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

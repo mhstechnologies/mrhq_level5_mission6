@@ -1,0 +1,110 @@
+.NavBar_Navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: black;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.NavBar_Menu {
+  margin-left: auto;
+}
+
+.NavBar_Menu ul {
+  display: flex;
+  padding: 0;
+}
+
+.NavBar_Menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.NavBar_Menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.NavBar_Button {
+  width: 120px;
+  height: auto;
+}
+
+.NavBar_Hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.NavBar_Hamburger:hover {
+  background-color: #2642af;
+}
+
+@media screen and (max-width: 768px) {
+  .NavBar_Hamburger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .NavBar_Menu ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .NavBar_Menu ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+
+  .NavBar_Menu li {
+    text-align: center;
+    margin: 0;
+  }
+
+  .NavBar_Menu li a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .NavBar_Menu li:hover {
+    background-color: #eee;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .NavBar_Menu ul {
+    /* previous styles */
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .NavBar_Menu.expanded ul {
+    display: block;
+  }
+}
