@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import './Bottom.css';
 
 function Bottom() {
-  const listProducts = [];
   const [names, setNames] = useState([]);
   const [images, setImages] = useState([]);
   const [products, setProducts] = useState([]);
@@ -21,6 +20,8 @@ function Bottom() {
   }
 
   useEffect(() => getProducts(), []);
+  
+  // eslint-disable-next-line
   useEffect(() => renderProducts(), [products]);
 
   return (
