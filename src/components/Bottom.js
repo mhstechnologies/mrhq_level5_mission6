@@ -44,13 +44,13 @@ function Bottom() {
         </div>
       </div>
       <div className="Bottom_Figure_Generic">
-        <img className="Bottom_Figures" src={images[3]} alt="photo_2"/>
+        <img className="Bottom_Figures" src={images[3]} alt="photo_4"/>
         <div className="Bottom_Figure_Description">
           <p>{names[3]}</p>
         </div>
       </div>
       <div className="Bottom_Figure_Generic">
-        <img className="Bottom_Figures" src={images[4]} alt="photo_3"/>
+        <img className="Bottom_Figures" src={images[4]} alt="photo_5"/>
         <div className="Bottom_Figure_Description">
           <p>{names[4]}</p>
         </div>
