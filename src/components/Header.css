@@ -1,26 +1,33 @@
 .Header_Body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: black;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  color: white;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.Header_Home {
-  display: inline-flex;
-  align-items: center;
+.Header_Pet_Logo {
+  width: 8%;
 }
 
-.Header_Logo {
-  margin-left: 10%;
-  width: 10%;
-  border-radius: 50%;
+.Header_Search {
+  width: 630px;
+  height: 58px;
+  border-radius: 48px;
 }
 
-.Header_Company {
-  margin-left: 2%;
-  color: white;
-  justify-items: center;
+::placeholder {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #C4C4C4;
+}
+
+.Header_Icon_Text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: bold;
 }
