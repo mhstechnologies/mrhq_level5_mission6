@@ -87,7 +87,7 @@ function Bottom() {
   useEffect(() => renderProducts(), []);
 
   return (
-    <>
+    <div className="Bottom_Body">
       <h3 className="Bottom_H3Tag">SHOP BY PET</h3>
       <div className="Bottom_Shop_Section">
         <div className="Bottom_Pet_Group">
@@ -146,7 +146,7 @@ function Bottom() {
           <p className="Bottom_Pet_Type">{names[5]}</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
