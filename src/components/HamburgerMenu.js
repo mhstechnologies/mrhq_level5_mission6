@@ -1,8 +1,6 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IconContext }     from "react-icons";
 import { useState } from "react";
-import NavBar from "./NavBar";
-import "./HamburgerMenu.css"
 
 function HamburgerMenu() {
   const [menuShow, setMenuShow] = useState(false);
@@ -14,7 +12,6 @@ function HamburgerMenu() {
           <GiHamburgerMenu onClick={() => setMenuShow(!menuShow)}/>
         </div>
       </IconContext.Provider>
-      <NavBar render={menuShow} />
     </>
   );
 };

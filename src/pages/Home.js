@@ -1,13 +1,11 @@
-import Header from "../components/Header";
-import Hero   from "../components/Hero";
+import CombHeader from "../components/CombHeader";
 import Bottom from "../components/Bottom";
 import Footer from "../components/Footer";
 
 function Home() {
   return (
   <>
-    <Header />
-    <Hero />
+    <CombHeader />
     <Bottom />
     <Footer />
   </>
