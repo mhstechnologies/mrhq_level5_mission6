@@ -1,0 +1,86 @@
+.tryitoutdata_background_image {
+  object-fit: cover;
+  width: 100%;
+  height: 1200px;
+}
+
+.tryitoutdata_container {
+  position: absolute;
+  width: 1056px;
+  height: 890px;
+  margin-left: 17%;
+  margin-top: 2%;
+  background-color: #F5F5F5;
+  box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.tryitoutdata_title {
+  margin-top: 3%;
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.tryitoutdata_dogsname {
+  width: 301px;
+  height: 48px;
+  margin-left: 4%;
+}
+
+.tryitout_gender {
+  display: flex;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+.tryitout_gender_notselected, .tryitout_size_notselected {
+  width: 201px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #000000;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.tryitout_gender_selected, .tryitout_size_selected {
+  width: 201px;
+  height: 50px;
+  background-color: #C4C4C4;
+  border: 1px solid #000000;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.tryitout_dogsize {
+  display: flex;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+
+.tryitout_button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  align-items: center;
+  color: white;
+  background-color: #DC1830;
+  border: 1px solid #5D5D5D;
+  border-radius: 10px;
+  width: 313px;
+  height: 63px;
+  margin-top: 7%;
+  margin-left: 35%;
+}
