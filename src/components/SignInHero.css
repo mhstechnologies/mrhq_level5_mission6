@@ -1,0 +1,62 @@
+.signinhero_image {
+  position: absolute;
+  top: 68%;
+  left: 4%;
+  width: 260px;
+  height: 260px;
+}
+
+.signinhero_container {
+  position: absolute;
+  width: 1090px;
+  height: 654px;
+  margin-left: 17%;
+  margin-top: 40px;
+  background-color: #F5F5F5;
+  box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.signinhero_ptag {
+  margin-top: 119px;
+  margin-left: 108px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.signinhero_spantag {
+  font-weight: bold;
+}
+
+.signinhero_blocks_wrapper {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.signinhero_blocks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 216px;
+  height: 197px;
+  background-color: #F1F1F5;
+  border: 1px solid rgba(0, 0, 0, 0.31);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.signinhero_block_content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.signinhero_block_icon {
+  margin-left: 85px;
+  margin-bottom: 10%;
+}

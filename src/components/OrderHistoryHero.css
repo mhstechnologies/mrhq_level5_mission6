@@ -1,0 +1,129 @@
+.orderhistoryhero_image {
+  width: 341px;
+  height: 329px;
+  position: absolute;
+  top: 50%;
+  right: 12%; 
+}
+
+.orderhistoryhero_container {
+  position: absolute;
+  width: 1090px;
+  height: 700px;
+  margin-left: 17%;
+  margin-top: 40px;
+  background-color: #F5F5F5;
+  box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.orderhistoryhero_title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
+  margin-left: 67px;
+}
+
+.orderhistoryhero_line {
+  width: 986px;
+  border: 1px solid rgba(0, 0, 0, 0.77);
+  transform: rotate(0.12deg);
+}
+
+.orderhistoryhero_orders {
+  display: flex;
+  margin-left: 67px;
+  margin-bottom: 5%;
+  justify-content: space-between;
+}
+
+.orderhistoryhero_ordersname {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderhistoryhero_column {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+}
+
+.orderhistoryhero_row {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.orderhistoryhero_imageitem {
+  width: 72px;
+  height: 62px;
+  border: 1px solid #D9D9D9;
+  margin-top: 18px;
+}
+
+.orderhistoryhero_rowadj {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+  margin-top: 25px;
+}
+
+.orderhistoryhero_outofstock {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: red;
+  margin-top: 25px;
+}
+
+.orderhistoryhero_notifyme {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+  margin-top: 43px;
+  margin-right: 60px;
+  background-color: #D9D9D9;
+  border: 1px solid #5D5D5D;
+  width: 120px;
+  height: 30px;
+}
+
+.orderhistoryhero_addtocart {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  margin-top: 30px;
+  margin-right: 60px;
+  background-color: #DC1830;
+  border: 1px solid #5D5D5D;
+  color: white;
+  width: 120px;
+  height: 30px;
+}
+
+.orderhistoryhero_likelyhooditems {
+  display: flex;
+  margin-left: 67px;
+}
+
+.orderhistoryhero_productscontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderhistoryhero_likelyhoodimages {
+  width: 122px;
+  height: 189px;
+}

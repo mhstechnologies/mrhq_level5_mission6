@@ -1,15 +1,20 @@
-import Header from "./components/Header";
-import Hero   from "./components/Hero";
-import Bottom from "./components/Bottom";
-import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import SignIn from "./pages/SignIn";
+import TryItOut from "./pages/TryItOut";
+import OrderHistory from "./pages/OrderHistory";
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Bottom />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/signedin" element={<SignIn />} />
+          <Route path="/tryitout" element={<TryItOut />} />
+          <Route path="/orderhistory" element={<OrderHistory />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
